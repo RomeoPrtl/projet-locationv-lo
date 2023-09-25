@@ -1,0 +1,22 @@
+<div class="container">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <h1>Réserver votre vélo !</h1>
+        <label for="username">Nom: </label>
+        <input formControlName="username" type="text" id="username required ngModel">
+        <label for="usersurname">Prénom: </label>
+        <input formControlName="usersurname" type="text" id="usersurname" required ngModel>
+        <label for="email">Email: </label>
+        <input formControlName="email" type="email" id="email" required ngModel>
+        <label for="date">Date de réservation: </label>
+        <input formControlName="date" type="date" id="date" required ngModel>
+        <div class="align-items-center">
+            <label for="conditions">J'accepte les conditions générales d'utilisation. </label>
+        <input formControlName="conditions" type="checkbox" id="conditions" required ngModel>
+        </div>
+        <input type="submit" [disabled]="!form.valid" value="Soumettre" id="submit">
+    </form>
+    </div>
+
+
+
+

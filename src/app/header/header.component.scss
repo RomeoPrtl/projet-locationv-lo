@@ -1,0 +1,37 @@
+
+header{
+    background-color: #D92365;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+h1{
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+#color-logo-A{
+    color: #F2D544;
+}
+#color-logo-B{
+    color: #88DFF2;
+}
+#color-logo-C{
+    color: #372A8C;
+}
+ul{
+    margin-right: 30px;
+    display: flex;
+}
+li{
+    margin-left: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #F2D544;
+}

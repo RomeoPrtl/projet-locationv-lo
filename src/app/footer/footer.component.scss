@@ -1,0 +1,22 @@
+footer{
+    background-color: #D92365;
+    padding: 20px;
+    margin-top: 60px;
+    height: 150px;
+}
+ul{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #F2D544;
+}
