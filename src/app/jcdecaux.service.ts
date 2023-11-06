@@ -11,7 +11,7 @@ export class JcdecauxService {
   constructor(private http: HttpClient) { }
 
   getStations() : Observable<any[]>{
-    const apiKey = 'dac4324c3113a5739b50f5c295c16c7cfbe82df3';
+    const apiKey = 'votre clé d'api ici';
     const apiUrl = `https://api.jcdecaux.com/vls/v3/stations?apiKey=${apiKey}`;
     return this.http.get<any[]>(apiUrl);
   }
